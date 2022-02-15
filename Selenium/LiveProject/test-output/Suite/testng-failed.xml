@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="PropertiesFileLoc" value="C:/Users/karrivi/git/SeleniumAssignment/LiveProject/src/test/java/project/testdata/OrangeHRPTestdata.properties"/>
+  <parameter name="Url" value="https://opensource-demo.orangehrmlive.com/"/>
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumTestscripts.TestCase8">
+        <methods>
+          <include name="maintenance"/>
+          <include name="leave"/>
+          <include name="dashboard"/>
+          <include name="directory"/>
+          <include name="admin"/>
+          <include name="pim"/>
+        </methods>
+      </class> <!-- SeleniumTestscripts.TestCase8 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
